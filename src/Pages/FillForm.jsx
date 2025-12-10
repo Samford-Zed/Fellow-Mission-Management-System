@@ -58,7 +58,7 @@ export default function FillForm() {
     try {
       const res = await fetch("http://localhost:7000/api/auth/fill-form", {
         method: "POST",
-        credentials: "include", // IMPORTANT: sends cookie to backend
+        credentials: "include", //  sends cookie to backend
         headers: {
           "Content-Type": "application/json",
         },
@@ -335,3 +335,4 @@ export default function FillForm() {
     </AppLayout>
   );
 }
+
