@@ -52,7 +52,7 @@ export default function AdminDashboard() {
   };
 
   // -----------------------------
-  // REAL DATA STATES
+  // REAL DATA STATE
   // -----------------------------
   const [users, setUsers] = useState([]);
   const [groups, setGroups] = useState([]);
@@ -678,3 +678,4 @@ export default function AdminDashboard() {
     </AppLayout>
   );
 }
+
