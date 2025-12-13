@@ -11,7 +11,7 @@ export function AuthProvider({ children }) {
   const API = "http://localhost:7000/api/auth";
 
   // ==========================
-  // LOAD USER FROM LOCAL STOR
+  // LOAD USER FROM LOCAL STORage
   // ==========================
   useEffect(() => {
     const saved = localStorage.getItem("miniMissionAuth");
@@ -123,4 +123,5 @@ export function useAuth() {
   if (!context) throw new Error("useAuth must be used inside AuthProvider");
   return context;
 }
+
 
