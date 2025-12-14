@@ -1,2 +1,4 @@
-node_modules/
-.env
+SERVER/node_modules/
+SERVER/.env
+mini-mission/node_modules/
+mini-mission/.env
