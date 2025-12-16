@@ -26,9 +26,9 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }, []);
 
-  // ==================================================
+  // ==========================================
   // REGISTER USER
-  // ==================================================
+  // ==========================================
   const register = async (formData) => {
     try {
       const res = await fetch(`${API}/signup`, {
@@ -141,4 +141,5 @@ export function useAuth() {
   if (!ctx) throw new Error("useAuth must be used inside AuthProvider");
   return ctx;
 }
+
 
