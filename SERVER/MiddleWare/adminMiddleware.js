@@ -2,7 +2,7 @@ import UserModel from "../Models/User.js";
 
 export const isAdmin = async (req, res, next) => {
   try {
-    // FIXED
+    
     const userId = req.userId;
 
     if (!userId) {
