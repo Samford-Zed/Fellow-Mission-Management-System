@@ -26,9 +26,9 @@ import {
 export default function AdminDashboard() {
   const { user } = useAuth();
 
-  // -----------------------------
+  // ------------
   // TABS
-  // -----------------------------
+  // ------------
   const getInitialTab = () => {
     const hash = window.location.hash.replace("#", "");
     return ["users", "groups", "data"].includes(hash) ? hash : "users";
@@ -678,3 +678,4 @@ export default function AdminDashboard() {
     </AppLayout>
   );
 }
+
