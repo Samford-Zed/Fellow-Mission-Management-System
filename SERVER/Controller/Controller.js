@@ -5,9 +5,9 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import GroupModel from "../Models/Groups.js";
 
-/* ---------------------------------------------------
+/* -------------------------------------
      SIGNUP
---------------------------------------------------- */
+---------------------------------------- */
 export const SignUp = async (req, res) => {
   // Accept both "name" and "fullName"
   const name = req.body.name || req.body.fullName;
