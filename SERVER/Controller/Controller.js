@@ -148,7 +148,7 @@ export const Fill_Form = async (req, res) => {
         .json({ success: false, message: "User does not exist" });
     }
 
-    // groupId OPTIONAL
+    // groupId
     const groupId = user.groupId || null;
 
     await Collected_Data.create({
