@@ -68,5 +68,5 @@ Built with care for mission coordination and community support.
 </p>
 
 <p style="text-align:center; font-size:13px; color:#999;">
-Author: Samuel Zenebe
+Author: Samuel Zenebe()
 </p>
