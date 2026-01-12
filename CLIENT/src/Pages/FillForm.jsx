@@ -50,7 +50,7 @@ export default function FillForm() {
     return Object.keys(newErrors).length === 0;
   };
 
-  // ---------------- SUBMIT ----------------
+  // -------- SUBMIT -----
   const handleSubmit = async (e) => {
     e.preventDefault();
     setServerError("");
@@ -224,3 +224,4 @@ export default function FillForm() {
     </AppLayout>
   );
 }
+
