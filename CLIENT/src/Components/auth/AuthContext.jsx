@@ -49,9 +49,9 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // ==================================================
+  // =============================
   // LOGIN USER (STORE TOKEN)
-  // ==================================================
+  // =============================
   const login = async (email, password) => {
     try {
       const res = await fetch(`${API}/login`, {
@@ -141,6 +141,7 @@ export function useAuth() {
   if (!ctx) throw new Error("useAuth must be used inside AuthProvider");
   return ctx;
 }
+
 
 
 
