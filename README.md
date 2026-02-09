@@ -11,7 +11,7 @@ secure data collection, and user coordination.
 <p>
 Fellowship Mission Web App is a full-stack project designed to help
 mission teams and administrators manage users, authenticate securely,
-and submit mission field data through a clean and structured interface.......
+and submit mission field data through a clean and structured interface......
 </p>
 
 <h2>🧠 Technology Stack</h2>
